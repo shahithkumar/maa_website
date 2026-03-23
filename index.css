@@ -586,6 +586,38 @@ section[id] { scroll-margin-top: 80px; }
 .dl-box > * { position: relative; z-index: 1; }
 .dl-box .sec-sub { margin: 0 auto 36px; }
 
+/* QR Codes */
+.hero-qr {
+  display: flex; justify-content: center; margin-top: 32px;
+}
+.qr-container {
+  display: flex; align-items: center; gap: 16px;
+  padding: 12px 18px; background: var(--white-04);
+  border: 1px solid var(--border); border-radius: var(--r-md);
+  text-align: left;
+}
+.qr-code {
+  width: 64px; height: 64px; border-radius: 8px;
+  background: white; padding: 4px;
+}
+.qr-text strong { display: block; font-size: .88rem; color: var(--white); margin-bottom: 2px; }
+.qr-text span { font-size: .75rem; color: var(--white-30); }
+
+.dl-qr-wrap {
+  margin-top: 40px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+.dl-qr {
+  width: 150px; height: 150px; border-radius: 12px;
+  background: white; padding: 10px; border: 1px solid var(--border-2);
+}
+.dl-qr-wrap p { font-size: .82rem; color: var(--white-30); width: 100%; text-align: center; }
+
 .dl-btns { display: flex; align-items: center; justify-content: center; gap: 14px; margin-bottom: 20px; }
 
 .btn-dl {
